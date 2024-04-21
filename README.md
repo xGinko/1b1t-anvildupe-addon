@@ -1,9 +1,8 @@
 # Automatic Anvil Duper for 1b1t
 
-A simple addition for meteor and rusherhack to make duping on 1b1t easier
+A simple addition for meteor for automated duping on 1b1t
 
 ### How to use:
-- Meteor Addon: Put the jar into your mods folder and make sure meteor is installed as well
-- Rusherhack Plugin: Place the jar into your .minecraft/rusherhack/plugins folder
+- Put the jar into your mods folder and make sure meteor is installed as well
 - Start minecraft
 - Have fun
