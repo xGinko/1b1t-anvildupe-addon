@@ -27,7 +27,7 @@ public class AnvilDuper extends Module {
 
     private final Setting<List<Item>> items = sgDefault.add(new ItemListSetting.Builder()
         .name("Items to dupe")
-        .description("Which items should be automatically duped")
+        .description("Which items should be automatically duped.")
         .defaultValue(Items.SHULKER_BOX)
         .build());
 
@@ -60,7 +60,7 @@ public class AnvilDuper extends Module {
         .build());
 
     public AnvilDuper() {
-        super(OneBAddon.CATEGORY, "AnvilDuper", "Automatically dupe items using the anvil rename dupe on 1b1t");
+        super(OneBAddon.CATEGORY, "Anvil-Duper", "Automatically dupe items using the anvil rename dupe on 1b1t");
     }
 
     private int skippedTicks;

@@ -8,14 +8,12 @@ import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
 
 public class OneBAddon extends MeteorAddon {
-    public static final Logger LOG = LogUtils.getLogger();
+
     public static final Category CATEGORY = new Category("1b1t");
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing Meteor OneBAddon Template");
-
-        // Modules
+        LogUtils.getLogger().info("Loading 1b1t addon.");
         Modules.get().add(new AnvilDuper());
     }
 
@@ -26,6 +24,6 @@ public class OneBAddon extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "me.xginko.anvilduperaddon";
     }
 }
